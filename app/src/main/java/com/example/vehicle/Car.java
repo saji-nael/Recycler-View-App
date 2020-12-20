@@ -59,11 +59,11 @@ public class Car {
     @Override
     public String toString() {
         return
-                "name:'" + name + "\n" +
-                        " founded:" + founded + "\n" +
-                        " founder:'" + founder + "\n" +
-                        " slogan:'" + slogan + "\n" +
-                        " example:'" + example + "\n"
+                "name: " + name + "\n\n" +
+                        "founded: " + founded + "\n\n" +
+                        "founder: " + founder + "\n\n" +
+                        "slogan: " + slogan + "\n\n" +
+                        "example: " + example + "\n\n"
 
                 ;
     }

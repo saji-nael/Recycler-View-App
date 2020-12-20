@@ -4,13 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
-    tools:context=".MainActivity">
+    android:layout_margin="1dp"
+    android:background="#051057"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextviewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Brands"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/cars_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="vertical"/>
+        android:scrollbars="vertical" />
 
 </LinearLayout>
